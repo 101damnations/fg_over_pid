@@ -1,0 +1,8 @@
+[package]
+name = "fg_over_pid"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.18.4"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "4324778f62a42d4d0cba64680f2362f41b4a8a73"}
